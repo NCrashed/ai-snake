@@ -1,0 +1,17 @@
+cabal-version: >= 1.10
+name: snake
+version: 0.1.0
+build-type: Simple
+
+executable snake
+  hs-source-dirs: src
+  main-is: Main.hs
+  default-language: Haskell2010
+  build-depends: 
+      base
+    , sdl2
+    , sdl2-ttf
+    , random
+  default-extensions:
+    ScopedTypeVariables
+    OverloadedStrings
